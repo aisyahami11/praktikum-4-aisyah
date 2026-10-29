@@ -1,0 +1,157 @@
+/* Pengaturan halaman */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+    color: #222;
+    font-size: 12px;
+}
+
+/* Judul utama */
+h1 {
+    background-color: #deb887;
+    color: blue;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 5px;
+    margin: 0;
+    border: 1px solid #ccc;
+}
+
+/* Kutipan */
+blockquote {
+    background-color: #ffeb00;
+    color: #333;
+    text-align: center;
+    padding: 8px;
+    margin: 0 0 15px;
+    font-size: 11px;
+}
+
+/* Menu navigasi */
+nav {
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #555;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Gambar umum */
+img {
+    width: 170px;
+    height: 130px;
+    object-fit: cover;
+    margin: 3px;
+}
+
+/* Bagian gambar & koleksi */
+.gambar, .koleksi {
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Class foto untuk galeri gambar */
+.foto {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.foto img {
+    width: 23%;
+    height: auto;
+}
+
+/* Paragraf */
+p {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+/* Huruf pertama paragraf */
+p:first-of-type::first-letter {
+    font-size: 36px;
+    color: blue;
+    float: left;
+    padding-right: 6px;
+    line-height: 0.8;
+}
+
+/* Subjudul */
+h2 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Bagian Promo & Kontak */
+.promo {
+    background-color: #fff8dc;
+    padding: 15px;
+    border: 1px dashed #deb887;
+    margin-top: 20px;
+}
+
+#Wa {
+    color: green;
+    font-weight: bold;
+}
+
+/* Style Kotak COD (Sesuai Modul Praktikum) */
+.cod {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.cod p {
+    background-color: aqua;
+    border: 1px dotted red;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    padding: 10px;
+}
+
+/* Tampilan HP / Responsive */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    img {
+        width: 42%;
+        height: auto;
+    }
+
+    .foto img {
+        width: 45%;
+    }
+}
